@@ -38,7 +38,7 @@ const Componente_Presentacion = () => {
         </ul>  
 
             <div className="Contenedor-Logo  animate__animated animate__fadeIn animate__delay-5s">
-              <Link to="/portfolio"><img className="Logo" src={imagenLogoNico}></img></Link>
+              <Link to="/"><img className="Logo" src={imagenLogoNico}></img></Link>
             </div>
         </div>
         <div className="Contenedor_Foto">
