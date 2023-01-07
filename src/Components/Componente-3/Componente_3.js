@@ -11,7 +11,7 @@ import Contenido_Proyecto_9 from '../Contenido_Componentes-3/Contenido_Proyecto_
 import Contenido_Proyecto_10 from '../Contenido_Componentes-3/Contenido_Proyecto_10';
 
 
-import Contenido_Proyecto_Presentacion from '../Contenido_Componentes-3/Contenido_Proyecto_Presentacion';
+
 
 
 
@@ -50,17 +50,16 @@ const Componente_3 = () => {
 
 
         <div className="Contenido_Proyectos container col-md-10">
-          {opcion === 0 && <Contenido_Proyecto_Presentacion></Contenido_Proyecto_Presentacion>}
-          {opcion === 1 && <Contenido_Proyecto_1 ></Contenido_Proyecto_1>}
-          {opcion === 2 && <Contenido_Proyecto_2></Contenido_Proyecto_2>}
-          {opcion === 3 && <Contenido_Proyecto_3></Contenido_Proyecto_3>}
-          {opcion === 4 && <Contenido_Proyecto_4></Contenido_Proyecto_4>}
-          {opcion === 5 && <Contenido_Proyecto_5></Contenido_Proyecto_5>}
-          {opcion === 6 && <Contenido_Proyecto_6></Contenido_Proyecto_6>}
-          {opcion === 7 && <Contenido_Proyecto_7></Contenido_Proyecto_7>}
-          {opcion === 8 && <Contenido_Proyecto_8></Contenido_Proyecto_8>}
-          {opcion === 9 && <Contenido_Proyecto_9></Contenido_Proyecto_9>}
-          {opcion === 10 && <Contenido_Proyecto_10></Contenido_Proyecto_10>}
+          {opcion === 0 && <Contenido_Proyecto_1 ></Contenido_Proyecto_1>}
+          {opcion === 1 && <Contenido_Proyecto_2></Contenido_Proyecto_2>}
+          {opcion === 2 && <Contenido_Proyecto_3></Contenido_Proyecto_3>}
+          {opcion === 3 && <Contenido_Proyecto_4></Contenido_Proyecto_4>}
+          {opcion === 4 && <Contenido_Proyecto_5></Contenido_Proyecto_5>}
+          {opcion === 5 && <Contenido_Proyecto_6></Contenido_Proyecto_6>}
+          {opcion === 6 && <Contenido_Proyecto_7></Contenido_Proyecto_7>}
+          {opcion === 7 && <Contenido_Proyecto_8></Contenido_Proyecto_8>}
+          {opcion === 8 && <Contenido_Proyecto_9></Contenido_Proyecto_9>}
+          {opcion === 9 && <Contenido_Proyecto_10></Contenido_Proyecto_10>}
           
         </div>
 
