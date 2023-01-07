@@ -45,7 +45,7 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="nav-menu">
               
-              <li><Link to="/portfolio"><button onClick={ CambiarColorNav_2 }><img className="ImagenInicio" src={ImagenInicio} />Inicio</button></Link></li>
+              <li><Link to="/"><button onClick={ CambiarColorNav_2 }><img className="ImagenInicio" src={ImagenInicio} />Inicio</button></Link></li>
               <li><Link to="/about"><button onClick={ CambiarColorNav}><img className="ImagenInicio" src={ImagenSobreMi} />Sobre Mi</button></Link></li>
               <li><Link to="/Skills"><button onClick={ CambiarColorNav }><img className="ImagenInicio" src={ImagenSkills} />Habilidades</button></Link> </li>
               <li><Link to="/Proyectos"><button onClick={ CambiarColorNav }><img className="ImagenInicio" src={ImagenProyectos} />Proyectos</button></Link> </li>

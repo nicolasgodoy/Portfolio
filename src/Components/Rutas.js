@@ -26,7 +26,7 @@ const Rutas = () => {
     
   <div>
      <Routes>
-        <Route path="/portfolio"element={<Componente_Presentacion/>}></Route>
+        <Route path="/"element={<Componente_Presentacion/>}></Route>
         <Route path="/about" element={<Componente_1 />}></Route>
         <Route path="/Skills" element={<Componente_2 />}></Route>
         <Route path="/Proyectos" element={<Componente_3 />}></Route>
