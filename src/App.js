@@ -49,7 +49,7 @@ function App() {
               <li><Link to="/about"><button onClick={ CambiarColorNav}><img className="ImagenInicio" src={ImagenSobreMi} />Sobre Mi</button></Link></li>
               <li><Link to="/Skills"><button onClick={ CambiarColorNav }><img className="ImagenInicio" src={ImagenSkills} />Habilidades</button></Link> </li>
               <li><Link to="/Proyectos"><button onClick={ CambiarColorNav }><img className="ImagenInicio" src={ImagenProyectos} />Proyectos</button></Link> </li>
-              <li><Link to="/AnimacionContacto"><button onClick={ CambiarColorNav }><img className="ImagenInicio" src={ImagenContacto} />Contacto</button></Link> </li>
+              <li><Link to="/Formulario"><button onClick={ CambiarColorNav }><img className="ImagenInicio" src={ImagenContacto} />Contacto</button></Link> </li>
 
 
             </ul>
