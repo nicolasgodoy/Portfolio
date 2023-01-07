@@ -1,7 +1,6 @@
 
 import React, { useRef, useState } from 'react';
-import { Link } from "react-router-dom";
-import { Form, Input, Row, Col, FormGroup, Label, Button, FormFeedback, UncontrolledAccordion, AccordionBody, AccordionHeader, AccordionItem, Table } from 'reactstrap';
+import { Form, Input, Row, Col, FormGroup, Label, Button, FormFeedback} from 'reactstrap';
 import Swal from 'sweetalert2';
 
 
@@ -109,14 +108,6 @@ export default function Contacto() {
     return <>
 
         <div className="container-fluid Contacto animate__animated animate__fadeIn" id="Componente_Footer">
-
-
-
-            <div className="text-left col-md-6 m-2">
-                <Link to="/AnimacionContacto"><button type="button" className="Boton_Contacto_2 border-0 col-md-2 p-2 rounded"> Volver</button></Link>
-            </div>
-
-
 
 
             <h2 className="Tit-Form col-md-12">Formulario</h2>
