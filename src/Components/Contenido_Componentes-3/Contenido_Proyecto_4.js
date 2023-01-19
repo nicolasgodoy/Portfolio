@@ -15,7 +15,7 @@ const Contenido_Proyecto_4 = () => {
           <div className="Descripcion_Proyectos col-md-12"><h4 ><b>Pagina De Seguridad</b></h4></div>
           <p className="Descripcion_Proyectos col-md-12">
             Proyecto Final de Curso de HTML-5 y CSS3 de Elearning Mis primeros pasos con Css3 y lo que valoro de este Proyecto
-            es que no utilize ni Flex ni Grid ni ningun Framework ya que no los conocia aun 
+            es que no utilize ni Flex ni Grid ni ningun Framework ya que no los conocia aun
             <hr className="bg-white"></hr>
 
           </p>
@@ -29,7 +29,7 @@ const Contenido_Proyecto_4 = () => {
 
         </div>
         <div className="col-md-6 animate__animated animate__fadeIn">
-        <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <video className="ImagenSpoti" autoPlay loop > <source  src={PaginaSeguridad} ></source> </video></a>
+          <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <video className="ImagenSpoti" autoPlay loop > <source src={PaginaSeguridad} ></source> </video></a>
 
           <div className="col-md-12">
             <a href="https://pagina-seguridad.vercel.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>

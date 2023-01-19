@@ -1,17 +1,17 @@
 
 import './App.css';
 
-import ImagenInicio from '../src/Components/Componente_Presentacion/Imagenes/iconinicio.png';
-import ImagenSobreMi from '../src/Components/Componente_Presentacion/Imagenes/iconsobremi.png';
-import ImagenSkills from '../src/Components/Componente_Presentacion/Imagenes/iconhabilidades.png';
-import ImagenProyectos from '../src/Components/Componente_Presentacion/Imagenes/iconopryectos.png';
-import ImagenContacto from '../src/Components/Componente_Presentacion/Imagenes/iconocontacto.png';
+import ImagenInicio from '../src/Components/Componente_Presentacion/Imagenes/IconoInicio.png';
+import ImagenSobreMi from '../src/Components/Componente_Presentacion/Imagenes/IconSobreMii.png';
+import ImagenSkills from '../src/Components/Componente_Presentacion/Imagenes/IconoHabilidades.png';
+import ImagenProyectos from '../src/Components/Componente_Presentacion/Imagenes/IconoProyectos.png';
+import ImagenContacto from '../src/Components/Componente_Presentacion/Imagenes/IconooContacto.png';
 import Rutas from './Components/Rutas';
 import { Link } from "react-router-dom";
 
 
-
-const CambiarColorNav = () => {
+//FUNCIONES PARA CAMBIAR COLORES POR SI LA QUIERO USAR EN ALGUN MOMENTO
+/* const CambiarColorNav = () => {
   const nav = document.querySelector('nav');
     nav.classList.remove('dark');
     nav.classList.add('light');
@@ -24,7 +24,7 @@ const CambiarColorNav_2 = () => {
   const nav = document.querySelector('nav');
     nav.classList.remove('light');
     nav.classList.add('dark');
-}
+} */
 
 
 
@@ -45,11 +45,11 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="nav-menu">
               
-              <li><Link to="/"><button onClick={ CambiarColorNav_2 }><img className="ImagenInicio" src={ImagenInicio} />Inicio</button></Link></li>
-              <li><Link to="/about"><button onClick={ CambiarColorNav}><img className="ImagenInicio" src={ImagenSobreMi} />Sobre Mi</button></Link></li>
-              <li><Link to="/Skills"><button onClick={ CambiarColorNav }><img className="ImagenInicio" src={ImagenSkills} />Habilidades</button></Link> </li>
-              <li><Link to="/Proyectos"><button onClick={ CambiarColorNav }><img className="ImagenInicio" src={ImagenProyectos} />Proyectos</button></Link> </li>
-              <li><Link to="/Formulario"><button onClick={ CambiarColorNav }><img className="ImagenInicio" src={ImagenContacto} />Contacto</button></Link> </li>
+              <li><Link to="/"><button><img className="ImagenInicio" src={ImagenInicio} />Inicio</button></Link></li>
+              <li><Link to="/about"><button><img className="ImagenInicio" src={ImagenSobreMi} />Sobre Mi</button></Link></li>
+              <li><Link to="/Skills"><button><img className="ImagenInicio" src={ImagenSkills} />Habilidades</button></Link> </li>
+              <li><Link to="/Proyectos"><button><img className="ImagenInicio" src={ImagenProyectos} />Proyectos</button></Link> </li>
+              <li><Link to="/Formulario"><button><img className="ImagenInicio" src={ImagenContacto} />Contacto</button></Link> </li>
 
 
             </ul>

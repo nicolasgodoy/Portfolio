@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import imagen from '../Componente-1/CodigoQr.png';
+import imgCsharp from '../Componente-1/c-sharp.png'
+import imgNET from '../Componente-1/Microsoft_.NET_logo.png'
 
 
 
@@ -13,89 +15,55 @@ const Mi_Educacion = () => {
 
 
 
-    <div className="animate__animated animate__fadeInLeft text-center" id="Estudios">
+    <div className="animate__animated animate__fadeInLeft text-center">
 
+      
+
+      <div className="container" id="Estudios">
       <h3 className="col-md-12 Titulo_Educacion">Arbol Academico</h3>
+        
 
-      <div className="col-md-12">
-        <div className="Contenedor_Fechas ">
-          <div className="col-md-2">
-            <p className="Fecha-Autodidacta "> <b> 2019 - 2022 </b> </p>
-          </div>
+        <p>2020 - 2023 Formacion Autodidacta <i class="Icono-html fab fa-html5"></i> <i class=" Icono-Css3 fab fa-css3-alt"></i> <i class=" Icono-Js fab fa-js-square"></i> <i class=" Icono-Code fas fa-code"></i> <i class=" Icono-git fas fa-code-branch"></i> </p>  
+        <div class="contenido"></div>
+      
+        <div class="contenido1"></div>
 
-          <div className="col-md-2">
-            <Link to='/Certificado'><p className="enlace_Certificado "> <b> Certificado Responsive HTML5 y CSS3 </b> </p></Link>
-          </div>
+        <div class="contenido2"></div>
 
-          <div className="col-md-2">
-            <p> <b> 22/06/2021 - 23/08/2021  </b> </p>
-          </div>
+        <p>22/03/2021 - 22/5/2021 - Certificado Responsive HTML5 y CSS3 <i class="Icono-html fab fa-html5"></i> <i class=" Icono-Css3 fab fa-css3-alt"></i>  </p> 
 
-          <div className="col-md-2">
-            <p> <b> Facultad - A.Sistemas -  A Finalizar </b> </p>
-          </div>
+        <div class="contenido3"></div>
 
-          <div className="col-md-2">
-            <Link to='/Certificado_NET'><p className="enlace_Certificado"> <b> Certificado Programacion.NET </b> </p></Link>
-          </div>
-        </div>
+        <div class="contenido4"></div>
 
+        <div class="contenido5"></div>
+      
+        <p> 22/06/2021 - 24/08/2021 - Certificado de Programacion web con Javascript <i class=" Icono-Js fab fa-js-square"></i> </p>  
 
-        <div className="Enunciado_Fecha  ">
-          <div className="col-md-2">
-            <p> <b> Formacion Autodidacta </b> </p>
-          </div>
+        <div class="contenido6"></div>
 
-          <div className="col-md-2">
-            <p> <b> 22/03/2021 - 22/5/2021 </b> </p>
-          </div>
+        <div class="contenido7"></div>
 
+        <div class="contenido8"></div>
 
-          <div className="col-md-2">
-            <Link to='/Certificado_Js'> <p className="enlace_Certificado_Js "> <b> Certificado Programacion Web Con Javascript </b> </p></Link>
-          </div>
+        <p> 24/08/2022 - 04/10/2022 - Certificado de .NET <img className="Icono-Csharp" src={imgNET}></img> <img className="Icono-Csharp" src={imgCsharp}></img></p>  
+     
+        <div class="contenido6"></div>
 
-          <div className="col-md-2">
-            <p> <b> 2020 - 2022  </b> </p>
-          </div>
+        <div class="contenido7"></div>
 
-         
+        <div class="contenido8"></div>
 
-          
+        <p> 14/10/2022 - 14/12/2022 - Diplomatura de .NET <img className="Icono-Csharp" src={imgNET}></img> <img className="Icono-Csharp" src={imgCsharp}></img></p>    
 
-          <div className="col-md-2">
-            <p> <b> 02/09/2021 - 02/11/2022  </b> </p>
-          </div>
-        </div>
+        <div class="contenido6"></div>
 
+        <div class="contenido7"></div>
 
-
-        <div className="Contenido_Elegirme col-md-12">
-
-          <div className="row Elegirme_centrar">
-
-            <div className="Texto_Elegirme col-md-6">
-              <h4 className="tituloObjetivo">OBJETIVOS: </h4>
-              <p className="textoObjetivo">
-               Mi objetivo es seguir formandome tanto universitariamente, y de manera autodidacta como vengo haciendo hace casi 2 años ya,
-               para en algun momento poder ponerme en busqueda de mi primera oportunidad laboral
-              </p>
-
-
-            </div>
-
-            <div className="Codigo_QR col-md-2 m-4 p-1">
-              <img className="imagenCodigoQR" src={imagen} />
-
-            </div>
-
-          </div>
-
-
-        </div>
-
-
-      </div>
+        <div class="contenido8"></div>
+        <p>2020 - 2023 Facultad - A.Sistemas -  A Finalizar <i class=" Icono-libro fas fa-book"></i> <i class=" Icono-taza fas fa-coffee"></i> </p>
+        
+    </div>
 
 
 

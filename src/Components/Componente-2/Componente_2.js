@@ -10,7 +10,7 @@ import IconoCSharp from '../Componente-2/Microsoft_.NET_logo.png';
 import IconoSQLServer from '../Componente-2/imagenSQl.png';
 import IconoMySql from '../Componente-2/mysql3.png';
 import IconoNodeJs from '../Componente-2/nodejs.png';
-
+import imagen from '../Componente-2/undraw_certificate_re_yadi.svg';
 
 
 
@@ -93,6 +93,10 @@ class Componente_2 extends Component {
 
                
 
+            </div>
+
+            <div className="col-md-12 animate__animated animate__fadeInUp">
+                    <img className="imagen_skills" src={imagen} />
             </div>
         </div>
 

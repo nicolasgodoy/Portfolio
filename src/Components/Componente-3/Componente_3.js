@@ -9,6 +9,7 @@ import Contenido_Proyecto_7 from '../Contenido_Componentes-3/Contenido_Proyecto_
 import Contenido_Proyecto_8 from '../Contenido_Componentes-3/Contenido_Proyecto_8';
 import Contenido_Proyecto_9 from '../Contenido_Componentes-3/Contenido_Proyecto_9';
 import Contenido_Proyecto_10 from '../Contenido_Componentes-3/Contenido_Proyecto_10';
+import Contenido_Proyecto_11 from '../Contenido_Componentes-3/Contenido_Proyecto_11';
 
 
 
@@ -42,6 +43,7 @@ const Componente_3 = () => {
           <li><button onClick={() => setOpcion(8)} type="button" className="col-md-12 Botones_Estilos">Proyecto 8 <i className="Flechita fa fa-solid fa-angle-right"></i></button></li>
           <li><button onClick={() => setOpcion(9)} type="button" className="col-md-12 Botones_Estilos">Proyecto 9 <i className="Flechita fa fa-solid fa-angle-right"></i></button></li>
           <li><button onClick={() => setOpcion(10)} type="button" className="col-md-12 Botones_Estilos">Proyecto 10 <i className="Flechita fa fa-solid fa-angle-right"></i></button></li>
+          <li><button onClick={() => setOpcion(11)} type="button" className="col-md-12 Botones_Estilos">Proyecto 11 <i className="Flechita fa fa-solid fa-angle-right"></i></button></li>
           
           
         </ul>
@@ -61,6 +63,7 @@ const Componente_3 = () => {
           {opcion === 8 && <Contenido_Proyecto_8></Contenido_Proyecto_8>}
           {opcion === 9 && <Contenido_Proyecto_9></Contenido_Proyecto_9>}
           {opcion === 10 && <Contenido_Proyecto_10></Contenido_Proyecto_10>}
+          {opcion === 11 && <Contenido_Proyecto_11></Contenido_Proyecto_11>}
           
         </div>
 
