@@ -121,7 +121,7 @@ const Componente_3Prueba = () => {
 
 
                                 <div className="col-md-12">
-                                    <a href="https://spoti-app-two.vercel.app/#/home" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
+                                    <a href="https://crud-angular-one.vercel.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
                                 </div>
                             </div>
                         </div>
