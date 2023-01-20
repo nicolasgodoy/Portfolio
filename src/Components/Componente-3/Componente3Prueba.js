@@ -132,10 +132,6 @@ const Componente_3Prueba = () => {
 
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
-                    <div className="col-md-4">
-                        <a className="EnlaceProyectos" href="https://proyecto-8-edb1b.web.app/index.html" target="_blank"> <img className="img-fluid ImagenSpotiVideo" href="https://proyecto-8-edb1b.web.app/index.html" src={ImgTaTeTi} /></a>
-
-                    </div>
 
                     <div className="col-md-8 Contenedor-body ">
                         <div className="card-body">
@@ -165,6 +161,11 @@ const Componente_3Prueba = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <a className="EnlaceProyectos" href="https://proyecto-8-edb1b.web.app/index.html" target="_blank"> <img className="img-fluid ImagenSpotiVideo" href="https://proyecto-8-edb1b.web.app/index.html" src={ImgTaTeTi} /></a>
+
                     </div>
 
                 </div>
@@ -257,6 +258,11 @@ const Componente_3Prueba = () => {
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
 
+                    <div className="col-md-5">
+                        <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <video className="img-fluid ImagenSpotiVideo" autoPlay loop > <source src={PaginaSeguridad} ></source> </video></a>
+
+                    </div>
+
                     <div className="col-md-7 Contenedor-body ">
                         <div className="card-body">
                             <h4 className="text-white"><b>Pagina De Seguridad</b></h4>
@@ -287,19 +293,13 @@ const Componente_3Prueba = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-5">
-                        <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <video className="img-fluid ImagenSpotiVideo" autoPlay loop > <source src={PaginaSeguridad} ></source> </video></a>
 
-                    </div>
                 </div>
             </div>
 
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
-                    <div className="col-md-5">
-                        <a className="EnlaceProyectos" href="https://crudnodejsmysql-production.up.railway.app/" target="_blank">  <video className="img-fluid ImagenSpotiVideo" autoPlay loop src={CrudImg} /></a>
 
-                    </div>
 
                     <div className="col-md-7 Contenedor-body ">
                         <div className="card-body">
@@ -329,6 +329,11 @@ const Componente_3Prueba = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div className="col-md-5">
+                        <a className="EnlaceProyectos" href="https://crudnodejsmysql-production.up.railway.app/" target="_blank">  <video className="img-fluid ImagenSpotiVideo" autoPlay loop src={CrudImg} /></a>
+
                     </div>
 
                 </div>
@@ -425,6 +430,11 @@ const Componente_3Prueba = () => {
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
 
+                    <div className="col-md-4">
+                        <a className="EnlaceProyectos" href="https://portfolio-4d13a.web.app/" target="_blank"> <video autoPlay loop className="img-fluid ImagenSpotiVideo" src={ImgPortfolio} /></a>
+
+                    </div>
+
                     <div className="col-md-8 Contenedor-body ">
                         <div className="card-body">
                             <h4 className="text-white"><b> Mi Otro Portfolio </b></h4>
@@ -456,10 +466,7 @@ const Componente_3Prueba = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <a className="EnlaceProyectos" href="https://portfolio-4d13a.web.app/" target="_blank"> <video autoPlay loop className="img-fluid ImagenSpotiVideo" src={ImgPortfolio} /></a>
 
-                    </div>
                 </div>
             </div>
 
