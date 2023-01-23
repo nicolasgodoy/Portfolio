@@ -333,7 +333,7 @@ const Componente_3Prueba = () => {
                     </div>
 
                     <div className="col-md-5">
-                        <a className="EnlaceProyectos" href="https://crud-react-xi.vercel.app/" target="_blank">  <video className="img-fluid ImagenSpotiVideo" autoPlay loop src={CrudImg} /></a>
+                        <a className="EnlaceProyectos" href="https://crud-react-xi.vercel.app/" target="_blank">  <img className="img-fluid ImagenSpotiVideo"src={CrudImg} /></a>
 
                     </div>
 
