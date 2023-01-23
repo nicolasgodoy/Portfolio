@@ -303,11 +303,11 @@ const Componente_3Prueba = () => {
 
                     <div className="col-md-7 Contenedor-body ">
                         <div className="card-body">
-                            <h4 className="text-white"><b> Crud NodeJsMySQL </b></h4>
+                            <h4 className="text-white"><b> Crud Con React y Asp.Net utilizando la misma Api que el Crud de angular </b></h4>
                             <p className="card-text">
                                 <p className="text-white">
-                                    Crud Para poner en practica conocimientos de Nodejs y de MySQL
-                                    Y Tambien subir una base de datos a la nube
+                                    Crud Para poner en practica conocimientos de React y de Sql Server
+                                    y poder utilizar una api para dos proyectos distintos al mismo tiempo..
 
                                 </p>
                             </p>
@@ -325,14 +325,14 @@ const Componente_3Prueba = () => {
 
 
                                 <div className="col-md-12">
-                                    <a href="https://crudnodejsmysql-production.up.railway.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
+                                    <a href="https://crud-react-xi.vercel.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-md-5">
-                        <a className="EnlaceProyectos" href="https://crudnodejsmysql-production.up.railway.app/" target="_blank">  <video className="img-fluid ImagenSpotiVideo" autoPlay loop src={CrudImg} /></a>
+                        <a className="EnlaceProyectos" href="https://crud-react-xi.vercel.app/" target="_blank">  <video className="img-fluid ImagenSpotiVideo" autoPlay loop src={CrudImg} /></a>
 
                     </div>
 
