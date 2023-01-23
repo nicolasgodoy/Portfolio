@@ -14,6 +14,7 @@ import CrudImg from '../Imagenes/CapturaReactCrud.JPG';
 import spotiApp from '../Imagenes/videoSpotiapp2.gif';
 import IconoAngular from '../Componente-2/iconangular.png';
 import ImagenAngular from '../Imagenes/VideoAngular.mp4';
+import IconoReact from '../Imagenes/iconreact.png'
 
 
 
@@ -318,7 +319,9 @@ const Componente_3Prueba = () => {
                                 <img className="m-1 Icono-html-Proyectos" src={IconoHtml} />
                                 <img className="m-1 Icono-Css3-Proyectos" src={IconoCss3} />
                                 <img className="m-1 Icono-Js-Proyectos" src={IconoJs} />
+                                <img className="m-1 Icono-Js-Proyectos" src={IconoReact} />
                                 <img className="m-1 Icono-Js-Proyectos" src={IconoBoostrap} />
+                                
                             </div>
 
                             <div className="animate__animated animate__fadeIn">
