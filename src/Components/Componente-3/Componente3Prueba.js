@@ -303,11 +303,12 @@ const Componente_3Prueba = () => {
 
                     <div className="col-md-7 Contenedor-body ">
                         <div className="card-body">
-                            <h4 className="text-white"><b> Crud Con React y Asp.Net utilizando la misma Api que el Crud de angular </b></h4>
+                            <h4 className="text-white"><b> Crud Con React y Asp.Net </b></h4>
                             <p className="card-text">
                                 <p className="text-white">
+                                
                                     Crud Para poner en practica conocimientos de React y de Sql Server
-                                    y poder utilizar una api para dos proyectos distintos al mismo tiempo..
+                                    y poder utilizar una api para dos proyectos (Crud de angular) distintos al mismo tiempo..
 
                                 </p>
                             </p>
