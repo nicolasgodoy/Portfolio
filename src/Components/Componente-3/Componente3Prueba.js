@@ -10,7 +10,7 @@ import ImgLogin from '../Imagenes/videoTemplete.mp4';
 import ImgTaTeTi from '../Imagenes/videoTaTeTi.gif';
 import IconoBoostrap from '../Componente-2/iconboostrap.png';
 import ImgPortfolio from '../Imagenes/videoPortfolio.mp4';
-import CrudImg from '../Imagenes/CapturaReactCrud.JPGg';
+import CrudImg from '../Imagenes/CapturaReactCrud.JPG';
 import spotiApp from '../Imagenes/videoSpotiapp2.gif';
 import IconoAngular from '../Componente-2/iconangular.png';
 import ImagenAngular from '../Imagenes/VideoAngular.mp4';
