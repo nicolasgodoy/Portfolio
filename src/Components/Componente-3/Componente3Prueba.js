@@ -14,7 +14,8 @@ import CrudImg from '../Imagenes/CapturaReactCrud.JPG';
 import spotiApp from '../Imagenes/videoSpotiapp2.gif';
 import IconoAngular from '../Componente-2/iconangular.png';
 import ImagenAngular from '../Imagenes/VideoAngular.mp4';
-import IconoReact from '../Imagenes/iconreact.png'
+import IconoReact from '../Imagenes/iconreact.png';
+import imagenAdivinarNumero from '../Imagenes/AdivinarNumeroVideo.mp4';
 
 
 
@@ -26,6 +27,66 @@ const Componente_3Prueba = () => {
 
             <h2 className="col-md-12 Tit-Proyectos ">Proyectos</h2>
 
+            {/* POR SI LO QUIERO CAMBIAR EN ALGUN MOMENTO
+
+            <div class="card border mb-3 col-md-4">
+                <div class="card-header bg-transparent border"><h4 className=""><b> Juego Pokemon </b></h4></div>
+                <div class="card-body text-success">
+                    <div className="">
+                        <a className="EnlaceProyectos" href="https://proyecto-10-e9305.web.app/" target="_blank"> <video autoPlay loop className="img-fluid ImagenSpotiVideo" src={PokeImg} /></a>
+
+                    </div>
+                    <p className="text-dark">Juego de Batallas Pokemon - Objetivo repasar manipulacion del dom y eventos de botones</p>
+                </div>
+                <div class="card-footer bg-transparent border">
+                    <div className="text-dark">
+                        <p><b>Lenguajes Utilizados</b></p>
+                        <img className="m-1 Icono-html-Proyectos" src={IconoHtml} />
+                        <img className="m-1 Icono-Js-Proyectos" src={IconoJs} />
+                        <img className="m-1 Icono-Js-Proyectos" src={IconoCss3} />
+                    </div>
+
+                    <div className="animate__animated animate__fadeIn">
+                        <a href="https://proyecto-10-e9305.web.app/" target="_blank" className="btn Botones_Estilos_2">Ver Proyecto</a>
+                    </div></div>
+            </div> */}
+
+
+            <div className="card bg-dark mb-3">
+                <div className="row g-0">
+                    
+                    <div className="col-md-8 Contenedor-body ">
+                        <div className="card-body">
+                            <h4 className="text-white"><b> Juego Adivinar Numero </b></h4>
+                            <p className="card-text">
+                                <p className="text-white">
+                                    El juego consiste en adivinar el numero antes de quedarte sin vidas dentro 
+                                    de los intentos correspondientes
+                                    
+                                </p>
+                                <p className="text-white">
+                                    "Juego realizado en Lab de una empresa"
+                                </p>
+                            </p>
+
+                            <div className="text-white">
+                                <p><b>Lenguajes Utilizados</b></p>
+                                <img className="m-1 Icono-html-Proyectos" src={IconoHtml} />
+                                <img className="m-1 Icono-Js-Proyectos" src={IconoJs} />
+                                <img className="m-1 Icono-Js-Proyectos" src={IconoCss3} />
+                            </div>
+
+                            <div className="animate__animated animate__fadeIn">
+                                <a href="https://adivinar-numero.vercel.app/" target="_blank" className="btn Botones_Estilos_2">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <a className="EnlaceProyectos" href="https://adivinar-numero.vercel.app/" target="_blank"> <video autoPlay loop className="img-fluid ImagenSpotiVideo" src={imagenAdivinarNumero} /></a>
+
+                    </div>
+                </div>
+            </div>
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
                     <div className="col-md-4">
@@ -307,7 +368,7 @@ const Componente_3Prueba = () => {
                             <h4 className="text-white"><b> Crud Con React y Asp.Net </b></h4>
                             <p className="card-text">
                                 <p className="text-white">
-                                
+
                                     Crud Para poner en practica conocimientos de React y de Sql Server
                                     y poder utilizar una api para dos proyectos (Crud de angular) distintos al mismo tiempo..
 
@@ -321,7 +382,7 @@ const Componente_3Prueba = () => {
                                 <img className="m-1 Icono-Js-Proyectos" src={IconoJs} />
                                 <img className="m-1 Icono-Js-Proyectos" src={IconoReact} />
                                 <img className="m-1 Icono-Js-Proyectos" src={IconoBoostrap} />
-                                
+
                             </div>
 
                             <div className="animate__animated animate__fadeIn">
@@ -336,7 +397,7 @@ const Componente_3Prueba = () => {
                     </div>
 
                     <div className="col-md-5">
-                        <a className="EnlaceProyectos" href="https://crud-react-xi.vercel.app/" target="_blank">  <img className="img-fluid ImagenSpotiVideo"src={CrudImg} /></a>
+                        <a className="EnlaceProyectos" href="https://crud-react-xi.vercel.app/" target="_blank">  <img className="img-fluid ImagenSpotiVideo" src={CrudImg} /></a>
 
                     </div>
 
