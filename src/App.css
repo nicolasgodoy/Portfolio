@@ -416,15 +416,9 @@ border-radius: 8px;
 }
 
 
-
-
-
-
-
-
-
 .Componente_2 {
   
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

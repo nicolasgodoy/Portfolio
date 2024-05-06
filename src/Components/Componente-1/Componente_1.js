@@ -26,12 +26,13 @@ class Componente_1 extends Component {
                             <ul className="Lista_Informacion animate__animated animate__fadeInUp">
                                 <li>
                                     <p className="textoSobreMi">  
-                                    ""¡Hola! Soy Nicolás, un desarrollador web con experiencia profesional. 
-                                    Hace un año que comencé a trabajar en el campo de la programación, 
-                                    y desde entonces he estado dedicado tanto a mis estudios universitarios como a mi formación autodidacta en desarrollo web. 
-                                    Durante este tiempo, he tenido la oportunidad de trabajar en proyectos para Neoris, colaborando además con Control Union y Pampa Energía. 
-                                    Estoy emocionado por seguir progresando y aprendiendo más en el campo del desarrollo web. 
-                                    ¡Mi objetivo es mejorar continuamente y crear proyectos cada vez más interesantes y útiles!" 
+                                        ¡Hola! Soy Nicolás, un desarrollador web con experiencia profesional. Hace un año que comencé a trabajar en el campo de la programación. 
+                                    </p>
+                                    <p className="textoSobreMi">
+                                        Durante este tiempo, he tenido la oportunidad de trabajar en proyectos para Neoris, colaborando con los siguientes clientes Control Union y Pampa Energía.
+                                    </p>
+                                    <p className="textoSobreMi">
+                                        Estoy emocionado por seguir progresando y aprendiendo más en el campo del desarrollo web. ¡Mi objetivo es mejorar continuamente y crear proyectos cada vez más interesantes y útiles!
                                     </p>
                                 </li>
                                
