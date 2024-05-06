@@ -3,10 +3,12 @@ import React, { Component } from "react";
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
 import IconoJs from '../Componente-2/iconjavascript.png';
-import IconoReact from '../Componente-2/iconreact.png';
+import IconoTelerik from '../Componente-2/568561.png';
 import IconoBoostrap from '../Componente-2/iconboostrap.png';
 import IconoGitHub from '../Componente-2/icongithub.png';
+import IconoAngular from '../Componente-2/iconangular.png';
 import IconoCSharp from '../Componente-2/Microsoft_.NET_logo.png';
+import IconoAspNet from '../Componente-2/asp_net.png';
 import IconoSQLServer from '../Componente-2/imagenSQl.png';
 import IconoMySql from '../Componente-2/mysql3.png';
 import IconoNodeJs from '../Componente-2/nodejs.png';
@@ -44,8 +46,14 @@ class Componente_2 extends Component {
                 </div>
 
                 <div className="Contenido_Leng col-md-2">
-                    <img className="Icono-React" src={IconoReact} />
-                    <p className="card-title "> React </p>
+                    <img className="Icono-React" src={IconoTelerik} />
+                    <p className="card-title "> Telerik </p>
+
+                </div>
+
+                <div className="Contenido_Leng col-md-2">
+                    <img className="Icono-React" src={IconoAngular} />
+                    <p className="card-title "> Angular </p>
 
                 </div>
 
@@ -64,6 +72,12 @@ class Componente_2 extends Component {
                 <div className="Contenido_Leng col-md-2">
                     <img className="Icono-NET" src={IconoCSharp} />
                     <p class="card-title"> .NET </p>
+
+                </div>
+
+                <div className="Contenido_Leng col-md-2">
+                    <img className="Icono-NET" src={IconoAspNet} />
+                    <p class="card-title"> ASP.NET </p>
 
                 </div>
 
