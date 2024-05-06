@@ -284,7 +284,7 @@ const Componente_3Prueba = () => {
                 <div className="row g-0">
 
                     <div className="col-md-5">
-                        <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <img className="img-fluid ImagenSpotiVideo"/> <source src={PaginaSeguridad} ></source></a>
+                        <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <img className="img-fluid ImagenSpotiVideo" src={PaginaSeguridad} /></a>
 
                     </div>
 
