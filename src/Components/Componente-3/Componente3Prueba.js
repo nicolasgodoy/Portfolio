@@ -2,7 +2,7 @@ import PokeImg from '../Imagenes/Pokemon.jpg';
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoJs from '../Componente-2/iconjavascript.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
-import ImagenControlTiempo from '../Imagenes/ImagenControlTiempo.png';
+import ImagenControlTiempo from '../Imagenes/imagenControlTiempo.png';
 import ImagenApiTiempo from '../Imagenes/apiTiempo.jpg';
 import PaginaSeguridad from '../Imagenes/proyecto2.jpg';
 import ApiJs from '../Imagenes/apiTiempo.jpg';
