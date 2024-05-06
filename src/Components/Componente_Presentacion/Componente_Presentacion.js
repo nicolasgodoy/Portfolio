@@ -4,16 +4,10 @@ import ImagenLinkedin from '../Componente_Presentacion/Imagenes/iconLinkedin.png
 import imagenLogoNico from '../Componente_Presentacion/Imagenes/logong_png.png';
 import { Link } from "react-router-dom";
 
-
-
 const Componente_Presentacion = () => {
-
-  
-
   return (
 
     <div className="Componente_Presentacion animate__animated animate__fadeIn">
-
 
       <section>
         <div className="Contenedor_1">
@@ -50,4 +44,5 @@ const Componente_Presentacion = () => {
 
   )
 }
+
 export default Componente_Presentacion;

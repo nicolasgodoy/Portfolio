@@ -3,11 +3,9 @@ import ImgLogin from '../Imagenes/videoTemplete.mp4';
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
 
-
 const Contenido_Proyecto_6 = () => {
   return (
     <div className="Fondo_Proyecto_1 container-fluid animate__animated animate__zoomIn">
-
 
       <div className="row">
 
@@ -35,11 +33,7 @@ const Contenido_Proyecto_6 = () => {
           </div>
         </div>
 
-
-
       </div>
-
-
 
     </div>
   )

@@ -8,7 +8,6 @@ const Contenido_Proyecto_2 = () => {
   return (
     <div className="Fondo_Proyecto_1 container-fluid animate__animated animate__zoomIn">
 
-
       <div className="row">
 
         <div className="col-md-6 Columna-PrimerContenido">
@@ -20,7 +19,6 @@ const Contenido_Proyecto_2 = () => {
 
           </p>
           
-
           <div className="Descripcion_Proyectos col-md-12">
             <p><b>Lenguajes Utilizados</b></p>
             <img className="m-1 Icono-html-Proyectos" src={IconoHtml} />
@@ -37,11 +35,7 @@ const Contenido_Proyecto_2 = () => {
           </div>
         </div>
 
-
-
       </div>
-
-
 
     </div>
   )

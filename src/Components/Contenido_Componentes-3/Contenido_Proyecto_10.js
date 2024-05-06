@@ -6,12 +6,9 @@ import IconoJs from '../Componente-2/iconjavascript.png';
 import IconoAngular from '../Componente-2/iconangular.png';
 import Iconoboostrap from '../Componente-2/iconboostrap.png';
 
-
-
 const Contenido_Proyecto_10 = () => {
   return (
     <div className="Fondo_Proyecto_1 container-fluid animate__animated animate__zoomIn">
-
 
       <div className="row">
 
@@ -42,11 +39,7 @@ const Contenido_Proyecto_10 = () => {
           </div>
         </div>
 
-
-
       </div>
-
-
 
     </div>
   )

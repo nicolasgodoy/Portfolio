@@ -35,11 +35,7 @@ const Contenido_Proyecto_2 = () => {
           </div>
         </div>
 
-
-
       </div>
-
-
 
     </div>
   )

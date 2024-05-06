@@ -13,9 +13,6 @@ import IconoNodeJs from '../Componente-2/nodejs.png';
 import imagen from '../Componente-2/undraw_certificate_re_yadi.svg';
 
 
-
-
-
 class Componente_2 extends Component {
 
     render() {

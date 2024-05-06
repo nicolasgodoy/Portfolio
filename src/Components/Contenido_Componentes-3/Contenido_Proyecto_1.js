@@ -4,25 +4,10 @@ import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoJs from '../Componente-2/iconjavascript.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
 
-
-
-const defaultOptions = {
-  loop: true,
-  autoplay: true,
-  rendererSetting: {
-    preserveAspectRatio: 'xMidYMid slice'
-  }
-
-
-};
-
-
-
 const Contenido_Proyecto_1 = () => {
   return (
     <div className="Fondo_Proyecto_1 container-fluid animate__animated animate__zoomIn">
-
-
+      
       <div className="row">
 
         <div className="col-md-6 Columna-PrimerContenido">
@@ -52,11 +37,7 @@ const Contenido_Proyecto_1 = () => {
           </div>
         </div>
 
-
-
       </div>
-
-
 
     </div>
   )
