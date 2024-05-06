@@ -1,21 +1,21 @@
-import PokeImg from '../Imagenes/videoPokemon.mp4';
+import PokeImg from '../Imagenes/Pokemon.jpg';
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoJs from '../Componente-2/iconjavascript.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
-import ImagenHeroes from '../Imagenes/videoControlTiempo.gif';
-import ImagenApiTiempo from '../Imagenes/videoAppClima.gif';
-import PaginaSeguridad from '../Imagenes/VideoSeguridad.mp4';
-import ApiJs from '../Imagenes/videoApi.gif';
-import ImgLogin from '../Imagenes/videoTemplete.mp4';
-import ImgTaTeTi from '../Imagenes/videoTaTeTi.gif';
+import ImagenControlTiempo from '../Imagenes/ImagenControlTiempo.png';
+import ImagenApiTiempo from '../Imagenes/apiTiempo.jpg';
+import PaginaSeguridad from '../Imagenes/proyecto2.jpg';
+import ApiJs from '../Imagenes/apiTiempo.jpg';
+import ImgLogin from '../Imagenes/Login.jpg';
+import ImgTaTeTi from '../Imagenes/tateti.jpg';
 import IconoBoostrap from '../Componente-2/iconboostrap.png';
-import ImgPortfolio from '../Imagenes/videoPortfolio.mp4';
+import ImgPortfolio from '../Imagenes/portfolio.png';
 import CrudImg from '../Imagenes/CapturaReactCrud.JPG';
-import spotiApp from '../Imagenes/videoSpotiapp2.gif';
+import spotiApp from '../Imagenes/spotiApp.jpg';
 import IconoAngular from '../Componente-2/iconangular.png';
-import ImagenAngular from '../Imagenes/VideoAngular.mp4';
+import ImagenAngular from '../Imagenes/angularImg.png';
 import IconoReact from '../Imagenes/iconreact.png';
-import imagenAdivinarNumero from '../Imagenes/AdivinarNumeroVideo.mp4';
+import imagenAdivinarNumero from '../Imagenes/imagenAdivinarNumero.png';
 
 const Componente_3Prueba = () => {
 
@@ -310,7 +310,6 @@ const Componente_3Prueba = () => {
                             <div className="animate__animated animate__fadeIn">
                                 <div className="col-md-12">
                                     <a href="https://pagina-seguridad.vercel.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
-
                                 </div>
                             </div>
                         </div>
