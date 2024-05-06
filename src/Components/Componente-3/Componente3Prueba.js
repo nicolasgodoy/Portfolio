@@ -17,40 +17,12 @@ import ImagenAngular from '../Imagenes/VideoAngular.mp4';
 import IconoReact from '../Imagenes/iconreact.png';
 import imagenAdivinarNumero from '../Imagenes/AdivinarNumeroVideo.mp4';
 
-
-
 const Componente_3Prueba = () => {
-
 
     return (
         <div className="container  animate__animated animate__fadeIn" id="Proyectos">
 
             <h2 className="col-md-12 Tit-Proyectos ">Proyectos</h2>
-
-            {/* POR SI LO QUIERO CAMBIAR EN ALGUN MOMENTO
-
-            <div class="card border mb-3 col-md-4">
-                <div class="card-header bg-transparent border"><h4 className=""><b> Juego Pokemon </b></h4></div>
-                <div class="card-body text-success">
-                    <div className="">
-                        <a className="EnlaceProyectos" href="https://proyecto-10-e9305.web.app/" target="_blank"> <video autoPlay loop className="img-fluid ImagenSpotiVideo" src={PokeImg} /></a>
-
-                    </div>
-                    <p className="text-dark">Juego de Batallas Pokemon - Objetivo repasar manipulacion del dom y eventos de botones</p>
-                </div>
-                <div class="card-footer bg-transparent border">
-                    <div className="text-dark">
-                        <p><b>Lenguajes Utilizados</b></p>
-                        <img className="m-1 Icono-html-Proyectos" src={IconoHtml} />
-                        <img className="m-1 Icono-Js-Proyectos" src={IconoJs} />
-                        <img className="m-1 Icono-Js-Proyectos" src={IconoCss3} />
-                    </div>
-
-                    <div className="animate__animated animate__fadeIn">
-                        <a href="https://proyecto-10-e9305.web.app/" target="_blank" className="btn Botones_Estilos_2">Ver Proyecto</a>
-                    </div></div>
-            </div> */}
-
 
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
@@ -82,7 +54,7 @@ const Componente_3Prueba = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <a className="EnlaceProyectos" href="https://adivinar-numero.vercel.app/" target="_blank"> <video autoPlay loop className="img-fluid ImagenSpotiVideo" src={imagenAdivinarNumero} /></a>
+                        <a className="EnlaceProyectos" href="https://adivinar-numero.vercel.app/" target="_blank"> <img className="img-fluid ImagenSpotiVideo" src={imagenAdivinarNumero} /></a>
 
                     </div>
                 </div>
@@ -90,7 +62,7 @@ const Componente_3Prueba = () => {
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <a className="EnlaceProyectos" href="https://proyecto-10-e9305.web.app/" target="_blank"> <video autoPlay loop className="img-fluid ImagenSpotiVideo" src={PokeImg} /></a>
+                        <a className="EnlaceProyectos" href="https://proyecto-10-e9305.web.app/" target="_blank"> <img className="img-fluid ImagenSpotiVideo" src={PokeImg} /></a>
 
                     </div>
                     <div className="col-md-8 Contenedor-body ">
@@ -156,7 +128,7 @@ const Componente_3Prueba = () => {
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <a className="EnlaceProyectos" href="https://crud-angular-one.vercel.app/" target="_blank">  <video autoPlay loop className="img-fluid ImagenSpotiVideo" src={ImagenAngular} /></a>
+                        <a className="EnlaceProyectos" href="https://crud-angular-one.vercel.app/" target="_blank">  <img className="img-fluid ImagenSpotiVideo" src={ImagenAngular} /></a>
 
                     </div>
 
@@ -179,9 +151,6 @@ const Componente_3Prueba = () => {
                             </div>
 
                             <div className="animate__animated animate__fadeIn">
-
-
-
                                 <div className="col-md-12">
                                     <a href="https://crud-angular-one.vercel.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
                                 </div>
@@ -270,7 +239,6 @@ const Componente_3Prueba = () => {
                 </div>
             </div>
 
-
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
 
@@ -306,22 +274,17 @@ const Componente_3Prueba = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <a className="EnlaceProyectos" href="https://spoti-app-two.vercel.app/#/home" target="_blank">  <img className="img-fluid ImagenSpotiVideo" src={spotiApp} /></a>
+                        <a className="EnlaceProyectos" href="https://spoti-app-two.vercel.app/#/home" target="_blank"><img className="img-fluid ImagenSpotiVideo" src={spotiApp} /></a>
 
                     </div>
                 </div>
             </div>
 
-
-
-
-
-
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
 
                     <div className="col-md-5">
-                        <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <video className="img-fluid ImagenSpotiVideo" autoPlay loop > <source src={PaginaSeguridad} ></source> </video></a>
+                        <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <img className="img-fluid ImagenSpotiVideo"/> <source src={PaginaSeguridad} ></source></a>
 
                     </div>
 
@@ -345,9 +308,6 @@ const Componente_3Prueba = () => {
                             </div>
 
                             <div className="animate__animated animate__fadeIn">
-
-
-
                                 <div className="col-md-12">
                                     <a href="https://pagina-seguridad.vercel.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
 
@@ -387,8 +347,6 @@ const Componente_3Prueba = () => {
 
                             <div className="animate__animated animate__fadeIn">
 
-
-
                                 <div className="col-md-12">
                                     <a href="https://crud-react-xi.vercel.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
                                 </div>
@@ -403,8 +361,6 @@ const Componente_3Prueba = () => {
 
                 </div>
             </div>
-
-
 
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
@@ -446,11 +402,6 @@ const Componente_3Prueba = () => {
                 </div>
             </div>
 
-
-
-
-
-
             <div className="card bg-dark mb-3">
                 <div className="row g-0">
 
@@ -483,7 +434,7 @@ const Componente_3Prueba = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <a className="EnlaceProyectos" href="https://proyecto-4-6cf1b.web.app/" target="_blank"> <video autoPlay loop className="img-fluid ImagenSpotiVideo" href="https://proyecto-4-6cf1b.web.app/" src={ImgLogin} /> </a>
+                        <a className="EnlaceProyectos" href="https://proyecto-4-6cf1b.web.app/" target="_blank"> <img className="img-fluid ImagenSpotiVideo" href="https://proyecto-4-6cf1b.web.app/" src={ImgLogin} /> </a>
 
                     </div>
                 </div>
@@ -496,7 +447,7 @@ const Componente_3Prueba = () => {
                 <div className="row g-0">
 
                     <div className="col-md-4">
-                        <a className="EnlaceProyectos" href="https://portfolio-4d13a.web.app/" target="_blank"> <video autoPlay loop className="img-fluid ImagenSpotiVideo" src={ImgPortfolio} /></a>
+                        <a className="EnlaceProyectos" href="https://portfolio-4d13a.web.app/" target="_blank"> <img className="img-fluid ImagenSpotiVideo" src={ImgPortfolio} /></a>
 
                     </div>
 
@@ -534,27 +485,6 @@ const Componente_3Prueba = () => {
 
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-            {/* ============================ */}
-
-
-
-
-
-
-
-
-
-
-
         </div >
     )
 }
