@@ -28,7 +28,7 @@ const Contenido_Proyecto_6 = () => {
 
         </div>
         <div className="col-md-6 animate__animated animate__fadeIn">
-        <a className="EnlaceProyectos" href="https://proyecto-4-6cf1b.web.app/" target="_blank"> <video autoPlay loop className="ImagenSpoti" href="https://proyecto-4-6cf1b.web.app/" src={ImgLogin} /> </a>
+        <a className="EnlaceProyectos" href="https://proyecto-4-6cf1b.web.app/" target="_blank"> <img className="ImagenSpoti" href="https://proyecto-4-6cf1b.web.app/" src={ImgLogin} /> </a>
 
           <div className="col-md-12">
             <a href="https://proyecto-4-6cf1b.web.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>

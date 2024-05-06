@@ -18,9 +18,7 @@ import imagen from '../Componente-2/undraw_certificate_re_yadi.svg';
 
 class Componente_2 extends Component {
 
-
     render() {
-
 
         return <div className="Componente_2 container animate__animated animate__fadeIn" id="Skills">
 
@@ -36,10 +34,6 @@ class Componente_2 extends Component {
 
                 </div>
 
-
-
-
-
                 <div className=" Contenido_Leng col-md-2">
                     <img className="Icono-Css3" src={IconoCss3} />
                     <p className="card-title "> CSS-3 </p>
@@ -52,26 +46,17 @@ class Componente_2 extends Component {
 
                 </div>
 
-
-
-
-
-
                 <div className="Contenido_Leng col-md-2">
                     <img className="Icono-React" src={IconoReact} />
                     <p className="card-title "> React </p>
 
                 </div>
 
-
-
                 <div className="Contenido_Leng col-md-2">
                     <img className="Icono-GitHub" src={IconoGitHub} />
                     <p className="card-title "> GitHub </p>
 
                 </div>
-
-
 
                 <div className="Contenido_Leng col-md-2">
                     <img className="Icono-Boostrap" src={IconoBoostrap} />
@@ -91,16 +76,12 @@ class Componente_2 extends Component {
 
                 </div>
 
-               
-
             </div>
 
             <div className="col-md-12 animate__animated animate__fadeInUp">
                     <img className="imagen_skills" src={imagen} />
             </div>
         </div>
-
-
 
     }
 

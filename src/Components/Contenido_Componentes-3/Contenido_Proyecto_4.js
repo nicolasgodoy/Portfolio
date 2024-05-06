@@ -29,7 +29,7 @@ const Contenido_Proyecto_4 = () => {
 
         </div>
         <div className="col-md-6 animate__animated animate__fadeIn">
-          <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <video className="ImagenSpoti" autoPlay loop > <source src={PaginaSeguridad} ></source> </video></a>
+          <a className="EnlaceProyectos" href="https://pagina-seguridad.vercel.app/" target="_blank"> <img className="ImagenSpoti"/> <source src={PaginaSeguridad} ></source></a>
 
           <div className="col-md-12">
             <a href="https://pagina-seguridad.vercel.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
