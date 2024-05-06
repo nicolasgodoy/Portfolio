@@ -119,7 +119,7 @@ const Componente_3Prueba = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <a className="EnlaceProyectos" href="https://app-control-tiempo.vercel.app/" target="_blank" > <img className="img-fluid ImagenSpotiVideo" src={ImagenHeroes} /> </a>
+                        <a className="EnlaceProyectos" href="https://app-control-tiempo.vercel.app/" target="_blank" > <img className="img-fluid ImagenSpotiVideo" src={ImagenControlTiempo} /> </a>
 
                     </div>
                 </div>

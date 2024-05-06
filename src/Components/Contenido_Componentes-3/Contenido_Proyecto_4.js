@@ -1,5 +1,5 @@
 import React from 'react'
-import PaginaSeguridad from '../Imagenes/VideoSeguridad.mp4';
+import PaginaSeguridad from '../Imagenes/proyecto2.jpg';
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
 import IconoJs from '../Componente-2/iconjavascript.png';

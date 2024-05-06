@@ -1,5 +1,5 @@
 import React from 'react'
-import ImgLogin from '../Imagenes/videoTemplete.mp4';
+import ImgLogin from '../Imagenes/login.jpg';
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
 

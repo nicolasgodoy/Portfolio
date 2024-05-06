@@ -1,5 +1,5 @@
 import React from 'react'
-import PokeImg from '../Imagenes/videoPokemon.mp4';
+import PokeImg from '../Imagenes/Pokemon.jpg';
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoJs from '../Componente-2/iconjavascript.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';

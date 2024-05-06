@@ -1,5 +1,5 @@
 import React from 'react'
-import ImagenApiTiempo from '../Imagenes/videoAppClima.gif';
+import ImagenApiTiempo from '../Imagenes/apiTiempo.jpg';
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
 import IconoJs from '../Componente-2/iconjavascript.png';

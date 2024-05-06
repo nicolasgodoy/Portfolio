@@ -1,5 +1,5 @@
 import React from 'react'
-import ImgTaTeTi from '../Imagenes/videoTaTeTi.gif';
+import ImgTaTeTi from '../Imagenes/tateti.jpg';
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
 import IconoJs from '../Componente-2/iconjavascript.png';

@@ -1,5 +1,5 @@
 import React from 'react'
-import ImagenHeroes from '../Imagenes/videoControlTiempo.gif';
+import ImagenControlTiempo from '../Imagenes/ImagenControlTiempo.png';
 import IconoHtml from '../Componente-2/iconhtml5.png';
 import IconoCss3 from '../Componente-2/iconcss3.png';
 import IconoJs from '../Componente-2/iconjavascript.png';
@@ -28,7 +28,7 @@ const Contenido_Proyecto_2 = () => {
 
         </div>
         <div className="col-md-6 animate__animated animate__fadeIn">
-        <a className="EnlaceProyectos" href="https://app-control-tiempo.vercel.app/" target="_blank" > <img className="ImagenControlAct"  src={ImagenHeroes} /> </a>
+        <a className="EnlaceProyectos" href="https://app-control-tiempo.vercel.app/" target="_blank" > <img className="ImagenControlAct"  src={ImagenControlTiempo} /> </a>
 
           <div className="col-md-12">
             <a href="https://app-control-tiempo.vercel.app/" target="_blank" className="col-md-4 btn Botones_Estilos_2">Ver Proyecto</a>
