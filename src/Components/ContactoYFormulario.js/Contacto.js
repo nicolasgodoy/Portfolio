@@ -86,24 +86,11 @@ export default function Contacto() {
                 confirmButtonText: 'Bien Hecho!'
 
             })
-
-
-
-            
-
-           
         }
 
         setIsSend(true)
 
-       // setUser({...ValorInicial}) // copia de valor incial 
-
-
     }
-
-    
-    
-    
 
     return <>
 
