@@ -17,10 +17,10 @@ const Componente_Presentacion = () => {
                 
               </h2>
               <h2>
-                <span className="Titulo_Bienvenida_2 animate__animated animate__fadeInUp animate__delay-1s ">Emiliano Nicolas</span>
+                <span className="Titulo_Bienvenida_2 animate__animated animate__fadeInUp animate__delay-1s ">Nicolas Godoy</span>
               </h2>
               <h2>
-                <span className="Titulo_Bienvenida_3 animate__animated animate__fadeInUp animate__delay-1s "><span className="Titulo_Bienvenida_4">Godoy</span></span>
+                <span className="Titulo_Bienvenida_3 animate__animated animate__fadeInUp animate__delay-1s "><span className="Titulo_Bienvenida_4">FullStack Developer</span></span>
               </h2>
           </div>
 
