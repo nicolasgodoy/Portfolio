@@ -267,7 +267,7 @@ section{
   white-space: nowrap;
   font-size: 3rem;
   font-family: monospace;
-  color: #41c562;
+  color: #217235;
 }
 .Titulo_Bienvenida_4 {
   font-family: fantasy, sans-serif;
@@ -711,7 +711,7 @@ h2 {
 
 .Titulo_Leng {
   font-size: 1.7rem;
-  color: #fe6d5f;
+  color: #41c562;
   border-bottom: 2px solid #090909a0;
 }
 
@@ -1037,7 +1037,7 @@ strong {
 .Tit-Proyectos {
   
   font-size: 2.5rem;
-  color: #673ab7;
+  color: #41c562;
   
 }
 
