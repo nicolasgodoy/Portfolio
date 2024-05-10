@@ -248,7 +248,7 @@ section{
   font-size: 2rem;
   font-weight: bold;
   font-family: 'Rubik', sans-serif;
-  color: #fe6d5f;
+  color: #41c562;
   
   border-radius: 10px;
   padding:5px;
@@ -267,13 +267,13 @@ section{
   white-space: nowrap;
   font-size: 3rem;
   font-family: monospace;
-  color: #673ab7
+  color: #41c562;
 }
 .Titulo_Bienvenida_4 {
   font-family: fantasy, sans-serif;
   white-space: nowrap;
   font-size: 4rem;
-  color: #673ab7;
+  color: #41c562;
   padding:5px;
   font-family: 'Rubik', sans-serif;
   
@@ -555,13 +555,13 @@ border-radius: 8px;
 
 .Tit-Form {
   font-size: 2.6rem;
-  color: rgb(8, 7, 7);
+  color: #41c562;
 }
 
 .label-Form {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
-  color: rgb(8, 7, 7);
+  color: #46923c;
 }
 
 h1 {
@@ -569,7 +569,7 @@ h1 {
 }
 
 .Tit_SobreMi {
-  color: #673ab7;
+  color: #41c562;
   font-size: 2rem;
   border-bottom: 2px solid #090909a0;
 
