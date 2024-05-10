@@ -28,14 +28,17 @@ class Componente_1 extends Component {
                                     <p className="textoSobreMi">  
                                         ¡Hola! Soy Nicolás, un desarrollador web con experiencia profesional. Hace un año que comencé a trabajar en el campo de la programación. 
                                     </p>
+                                </li>
+                                <li>
                                     <p className="textoSobreMi">
                                         Durante este tiempo, he tenido la oportunidad de trabajar en proyectos para Neoris, colaborando con los siguientes clientes Control Union y Pampa Energía.
                                     </p>
+                                </li>
+                                <li>
                                     <p className="textoSobreMi">
                                         Estoy emocionado por seguir progresando y aprendiendo más en el campo del desarrollo web. ¡Mi objetivo es mejorar continuamente y crear proyectos cada vez más interesantes y útiles!
                                     </p>
                                 </li>
-                               
                             </ul>
                         </p>
                     </div>
