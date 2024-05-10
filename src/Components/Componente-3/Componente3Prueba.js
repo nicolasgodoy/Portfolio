@@ -5,7 +5,7 @@ import IconoCss3 from '../Componente-2/iconcss3.png';
 import ImagenControlTiempo from '../Imagenes/imagenControlTiempo.png';
 import ImagenApiTiempo from '../Imagenes/apiTiempo.jpg';
 import PaginaSeguridad from '../Imagenes/proyecto2.jpg';
-import ApiJs from '../Imagenes/apiTiempo.jpg';
+import ApiJs from '../Imagenes/API-JS.png';
 import ImgLogin from '../Imagenes/Login.jpg';
 import ImgTaTeTi from '../Imagenes/tateti.jpg';
 import IconoBoostrap from '../Componente-2/iconboostrap.png';
