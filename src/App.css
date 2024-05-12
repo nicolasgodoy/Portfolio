@@ -17,13 +17,27 @@ body{
 
 section{
   display: flex;
-  
 }
 
+.imagenNico{
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
 
+.Contenedor_Iconos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Contenedor_Logo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .Contenedor_1{
-  background-color: rgba(255, 255, 255, 0.979);
   width: 50%;
   height: 87.8vh;
   display:flex;
@@ -31,37 +45,24 @@ section{
   justify-content: center;
   align-items: center;
   align-content: center;
-  
-
 }
 
-.Contenedor_Foto{
-  display: flex;
+.Contenedor_2{
+  background-color: #43a564;
+  width: 50%;
+  height: 87.8vh;
+  display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-image: linear-gradient(135deg, #10102c82, rgb(19, 32, 48)), url(./Components/Componente_Presentacion/Imagenes/IMG_20221107_161842_253.jpg);
-  width: 600px;
-  height: 600px;
-  background-position: top;
-  background-size:cover;
-  background-repeat: no-repeat;
-  border-radius: 5px 100px 5px 150px;
-  box-shadow: 5px 5px 30px 0px #000000b2;
-  
-
-  
-}
-
-.Contenedor-Logo{
-  width: 90%;
+  border-radius: 10px 0px 0px 0px;
 }
 
 .Logo{
   display:flex;
-  width: 100px;
-  height: 100px;
-  background-color: white;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -74,8 +75,8 @@ section{
 
 
 .ImagenesPresentacion {
-  width: 50px !important;
-  height: 50px !important;
+  width: 100px !important;
+  height: 100px !important;
   margin: 5px;
 }
 
@@ -223,11 +224,6 @@ section{
 
 /* Presentacion */
 
-
-
-
-
-
 .Parrafo-Presentacion {
   margin-top: 20px;
   color: #f8f8f8;
@@ -274,7 +270,7 @@ section{
 .Titulo_Bienvenida_4 {
   font-family: fantasy, sans-serif;
   white-space: nowrap;
-  font-size: 4rem;
+  font-size: 2rem;
   color: #41c562;
   padding:5px;
   font-family: 'Rubik', sans-serif;
@@ -287,23 +283,12 @@ section{
 
 }
 
-
-
 .barra {
   width: 50%;
   margin: auto;
   height: 32px;
   border: 2px solid #ffffff
 }
-
-.Componente_Presentacion_1 {
-
-  width: 50%;
-  height: 100vh;
-  background-image: url('../src/Components/Componente_Presentacion/Imagenes/undraw_color_palette_re_dwy7.svg');
-  background-repeat: no-repeat;
-}
-
 
 
 .Contenido-Presentacion {
@@ -596,13 +581,6 @@ h2 {
 
 
 /* Componente 2 */
-
-.Contenedor_2 {
-
-  display: flex;
-  justify-content: center;
-  column-gap: 15px;
-}
 
 .Icono-html {
   width: 70px;
@@ -1711,7 +1689,6 @@ screen and (min-width: 599px) and (max-width: 1234px) {
 
   .Componente_Presentacion {
     width: 100%;
-  
   }
 
   .Contenido_Leng{
@@ -1739,8 +1716,6 @@ screen and (max-width:599px) {
   .Componente_Presentacion {
     width: 100%;
     
-
-
   }
 
   .Contenido_Componente_2 {
@@ -1754,28 +1729,24 @@ screen and (max-width:599px) {
   }
 
   .Contenedor_1{
-    width: 100%;
-    height: auto;
-  }
-  .Contenedor_Foto{
-    width: 100%;
-    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.979);
+    width: 50%;
+    height: 87.8vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 
   .Contacto {
-
     width: 100%;
-    
-
-
-
   }
 
   #Animacion_Contacto {
 
     width: 100%;
     height: 100vh;
-
   }
 
   .Contenedor_imagenCertificado {
@@ -1788,7 +1759,6 @@ screen and (max-width:599px) {
     width: 50%;
 
   }
-
 
   .Fondo_Lenguajes {
     width: 100%;
