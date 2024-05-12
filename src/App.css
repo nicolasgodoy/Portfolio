@@ -32,6 +32,7 @@ section{
 }
 
 .Contenedor_Logo{
+  margin-top: 2rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -267,6 +268,7 @@ section{
   font-family: monospace;
   color: #217235;
 }
+
 .Titulo_Bienvenida_4 {
   font-family: fantasy, sans-serif;
   white-space: nowrap;
@@ -274,7 +276,6 @@ section{
   color: #41c562;
   padding:5px;
   font-family: 'Rubik', sans-serif;
-  
   border-radius: 10px;
 }
 
@@ -1730,8 +1731,19 @@ screen and (max-width:599px) {
 
   .Contenedor_1{
     background-color: rgba(255, 255, 255, 0.979);
-    width: 50%;
-    height: 87.8vh;
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .Contenedor_2{
+    background-color: rgba(255, 255, 255, 0.979);
+    width: 100%;
+    height: auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -1766,12 +1778,7 @@ screen and (max-width:599px) {
   }
 
   .Componente_3 {
-
     width: 100%;
-    
-
-
-
   }
 
   .Lista_Informacion li {
@@ -1780,9 +1787,7 @@ screen and (max-width:599px) {
     font-family: monospace;
     color: #101010;
     height: auto;
-  
   }
-
 
   .imagen_Certificado {
     width: 100%;
@@ -1794,13 +1799,9 @@ screen and (max-width:599px) {
     padding: 0px
   }
 
-  
-
   .enlace_Certificado_Js {
     margin:2px;
     padding:0px;
-
-
   }
 
   .ImagenSpoti {
@@ -1814,11 +1815,8 @@ screen and (max-width:599px) {
   .ImagenSpotiVideo {
     width: 400px;
     height: 300px;
-    
-  
   }
   
-
   .Titulo_Educacion {
     color: rgb(255, 255, 255);
     font-size: 2rem;
@@ -1828,13 +1826,10 @@ screen and (max-width:599px) {
 
   .Contenedor_Fechas b {
     font-size: 0.65rem;
-    
-
   }
 
   .Enunciado_Fecha b {
     font-size: 0.65rem;
-    
   }
 
   #Skills {
@@ -1842,14 +1837,12 @@ screen and (max-width:599px) {
     height: auto;
   }
 
-
   .parrafo-Leng {
 
     font-size: 1rem;
   }
 
   .card-title {
-
     font-size: 1rem;
     color: rgb(0, 0, 0) !important;
     font-weight: bolder;
@@ -1859,37 +1852,31 @@ screen and (max-width:599px) {
     width: 100%;
     height: auto;
     background-image: none;
-    
   }
 
   .Contenido_Componente_1 {
     background-color: rgba(255, 255, 255, 0.516);
-    
     width: 100%;
     height: auto;
-    
   }
   
-
   .Contenedor_Imagen_Nico{
-    
     width: 100%;
     height: auto;
     margin-top: 0px;
+  }
     
-    }
-    
-    .Imagen_Nico {
-      
-      width: 100%;
-      height: auto;
-    }
+  .imagenNico {
+    width: 50%;
+    height: auto;
+  }
 
-  
+  .Titulo_Bienvenida_4 {
+    font-size: 1.5rem;
+  }
 
 
   .Contenedor_Estudios {
-
     width: 100%;
     height: 100vh;
   }
@@ -1900,17 +1887,17 @@ screen and (max-width:599px) {
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
-    
-
   }
 
+  .ImagenesPresentacion{
+    width: 60px !important;
+    height: 60px !important;
+    margin: 5px;
+  }
 
 
   #Estudios p {
     font-size: 0.80rem;
-
-
   }
 
 
@@ -2041,16 +2028,9 @@ screen and (max-width:599px) {
     box-shadow: 2px 2px 10px #000000;
   }
 
-  .Contenedor-Logo{
-    width:100%;
-    height: auto;
-    display:flex;
-    justify-content: center;
-  }
-  
   .Logo{
-   width: 80px;
-   height: 80px;
+   width: 200px;
+   height: 200px;
    margin:5px;
   }
 

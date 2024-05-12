@@ -28,12 +28,12 @@ const Componente_Presentacion = () => {
         </div>
         <div className="Contenedor_2">
           <div className="Contenedor_Iconos">
-            <ul className="Iconos animate__animated animate__fadeInUp animate__delay-1s">
+            <div className="animate__animated animate__fadeInUp animate__delay-1s">
               <div className="col-md-12 Lista-Iconos">
                 <li><a href="https://www.facebook.com/nicoo.godoy.37" target="_blank"><span><img className="ImagenesPresentacion" src={ImagenFacebook} /></span> </a> </li>
                 <li><a href="https://www.linkedin.com/in/nicolas-godoy-96914a189/" target="_blank"><span><img className="ImagenesPresentacion" src={ImagenLinkedin} /></span> </a></li>
               </div> 
-            </ul>  
+            </div>  
           </div>
           <div className="Contenedor_Logo">
             <div className="animate__animated animate__fadeIn animate__delay-1s">
