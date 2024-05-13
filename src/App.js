@@ -9,58 +9,27 @@ import ImagenContacto from '../src/Components/Componente_Presentacion/Imagenes/I
 import Rutas from './Components/Rutas';
 import { Link } from "react-router-dom";
 
-
-//FUNCIONES PARA CAMBIAR COLORES POR SI LA QUIERO USAR EN ALGUN MOMENTO
-/* const CambiarColorNav = () => {
-  const nav = document.querySelector('nav');
-    nav.classList.remove('dark');
-    nav.classList.add('light');
-      
-      
-};
-    
-
-const CambiarColorNav_2 = () => {
-  const nav = document.querySelector('nav');
-    nav.classList.remove('light');
-    nav.classList.add('dark');
-} */
-
-
-
 function App() {
   
   
   return (
     <div className="App">
       <header>
-
         <nav className="navbar navbar-expand-lg">
-         
-
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon "><i class="fa fa-bars"></i></span>
           </button>
-
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="nav-menu">
-              
               <li><Link to="/"><button><img className="ImagenInicio" src={ImagenInicio} />Inicio</button></Link></li>
               <li><Link to="/about"><button><img className="ImagenInicio" src={ImagenSobreMi} />Sobre Mi</button></Link></li>
               <li><Link to="/Skills"><button><img className="ImagenInicio" src={ImagenSkills} />Habilidades</button></Link> </li>
               <li><Link to="/Proyectos"><button><img className="ImagenInicio" src={ImagenProyectos} />Proyectos</button></Link> </li>
-              <li><Link to="/Formulario"><button><img className="ImagenInicio" src={ImagenContacto} />Contacto</button></Link> </li>
-
-
             </ul>
           </div>
         </nav>
-
       </header>
-
-
-
-
+      
       <Rutas></Rutas>
 
     </div>

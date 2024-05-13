@@ -4,9 +4,6 @@ import 'animate.css';
 import { Link } from "react-router-dom";
 
 
-
-
-
 class Componente_1 extends Component {
     
     render() {
@@ -46,19 +43,11 @@ class Componente_1 extends Component {
                     <div className="col-md-12">
                         <Link to="/Educacion"><button type="button" className="m-1 col-md-6 border-0 btn Boton_Educacion rounded p-2"> Mi Educacion </button></Link>
                     </div>
-
-                    
-
                 </div>
 
-               
             </div>
         </div>;
-
     }
-
-
 }
-
 export default Componente_1;
 
