@@ -1,5 +1,5 @@
 import React from 'react';
-import ImagenFacebook from '../Componente_Presentacion/Imagenes/iconFacebook.png';
+import ImagenGithub from '../Componente_Presentacion/Imagenes/icongithub.png';
 import ImagenLinkedin from '../Componente_Presentacion/Imagenes/iconLinkedin.png';
 import imagenLogoNico from '../Componente_Presentacion/Imagenes/logong_png.png';
 import imagenNico from '../Componente_Presentacion/Imagenes/IMG_20221107_161842_253.jpg';
@@ -30,7 +30,7 @@ const Componente_Presentacion = () => {
           <div className="Contenedor_Iconos">
             <div className="animate__animated animate__fadeInUp animate__delay-1s">
               <div className="col-md-12 Lista-Iconos">
-                <li><a href="https://www.facebook.com/nicoo.godoy.37" target="_blank"><span><img className="ImagenesPresentacion" src={ImagenFacebook} /></span> </a> </li>
+                <li><a href="https://github.com/nicolasgodoy" target="_blank"><span><img className="ImagenesPresentacion" src={ImagenGithub} /></span> </a> </li>
                 <li><a href="https://www.linkedin.com/in/nicolas-godoy-96914a189/" target="_blank"><span><img className="ImagenesPresentacion" src={ImagenLinkedin} /></span> </a></li>
               </div> 
             </div>  
